@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+<body>
+<h3>Contact Details</h3>
+<ol>
+ <li>123-456-7891 &#127928</li>
+ <li>770 S Dearborn Ct</li>
+ <li>mh.cid1987@gmail.com</li>
+</ol>
+<hr>
+<form action="mailto:mh.cid1987@gmail.com" method="post"
+enctype="text/plain">
+<!--In order to make your contact me form work, you must first remove class="",
+and then add a enctype="text/plain", so that the message will be sent to as a
+plain text. After that, change-->
+  <label for="">Your Name</label>
+  <input type="text" name="yourName" value=""> <br>
+  <label for="">Your Email</label>
+  <input type="email" name="yourEmail" value=""><br>
+  <label for="">Your Message</label>
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+  <!--textarea is used to let the user typedown a  message to you. Also,
+the rows and columns are chosen by you. -->
+  <input type="submit" name=""> <!--Remember to remove value="" when adding
+  a submit button to your form -->
+
+</form>
+</body>
